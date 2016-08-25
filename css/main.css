@@ -9,8 +9,33 @@
 	margin-left: 4%;
 	width: 92%;
 }
+.ml1{
+	margin-left: 3%;
+}
+.mt{
+	margin-top: 10%;
+}
+.mt2{
+	margin-top: 15%;
+}
+.mb{
+	margin-bottom: 5%;
+}
 /*boton*/
 button{
 	background-color:  #240024;
 	color: #ffffff !important;
+	border: none;
+}
+/*text*/
+.head{
+	color: #240024 !important;
+}
+/*especifico*/
+nav{
+	background-color: #240024 !important;
+}
+.img{
+	height: 19em;
+	width: 100%;
 }

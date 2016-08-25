@@ -9,52 +9,93 @@
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12 col-ms-12 col-xs-12">
-					<nav class="navbar navbar-default" role="navigation">
-						<div class="nivbar-header"><!-- MENU NO SE VE-->
-							<button type="button" class="navbar-toggle" data-toggle="collapse"
-									data-target=".navbar-ex1-collapse">
-									<span class="sr-only">Desplegar navegación</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-							</button>
-							<img src="img/logo.png" class="logo"><!-- LOGO-->
-						</div>
-						<div class="collapse navbar-collapse navbar-ex1-collapse  pull-right"><!-- VISIBLE-->
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Enlace 1</a></li>
-								<li><a href="#">Enlace 2</a></li>
-							</ul>
-						</div>
-					</nav>
+				<div class="col-lg-12 col-ms-12 col-xs-12"><!-- boton-->
+					<nav class="navbar-inverse" role="navigation"><!-- Menu XS -->
+						  <div class="navbar-header">
+    						<button type="button" class="navbar-toggle" data-toggle="collapse"
+            				data-target=".navbar-ex1-collapse">
+      						<span class="sr-only">Desplegar navegación</span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+    						</button>
+    						<a class="navbar-brand head" href="#">Bootstrap</a>
+  						  </div>
+  						 <div class="collapse navbar-collapse navbar-ex1-collapse pull-right"><!-- Menu LG-->
+  						 	<ul class="nav navbar-nav">
+  						 		<li><a href="#sobreMi">Sobre Mí</a></li>
+  						 		<li><a href="#servicios">Servicios</a></li>
+  						 		<li><a href="#portafolio">Mi Portafolio</a></li>
+  						 		<li><a href="#contacto">Contáctame</a></li>
+  						 	</ul>
+  						 </div>
+  						</nav>
 				</div>
 			</div>
 		</div>
 	</header>
 	<section>
 		<div class="container">
-			<div class="row">
+			<div class="row mt">
 				<div class="col-lg-6 col-ms-6 col-xs-12"><!-- VIDEO-->
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/g3j7eRunzv4?controls=0" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="col-lg-6 col-ms-6 col-xs-12"><!-- INFO A LADO DE VIDEO-->
+				<div class="col-lg-6 col-ms-6 col-xs-12 pull-right"><!-- INFO LADO DE VIDEO-->
 					<h1 class="text-center">GRID SYSTEM</h1>
 					<p class="text-justify text-center pd">La Bootstrap Grid System nos ayuda a crear de manera rápida y fácil responsive website layouts. Gracias a este sistema, nuestra web se verá en todas las pantallas de los dispositivos con los que accedamos a ella. Una de las filosofías de este framework, es empezar a diseñar para móviles primero. Como ya sabemos, podemos utilizar un <b>ancho de 12 columnas</b> como máximo, y las podemos combinar. Podemos tener columnas de cualquier número, siempre y cuando el total de la suma de estas de <b>12</b>.</p>
 					<button type="button" class=" move-up btn btn-lg btn-default-outline ml">Más de Bootstrop</button>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-xs-12">
-					
+				<div class="col-lg-3 col-md-3 col-xs-12 mt"><!-- COL-LG-->
+					<img src="img/1.png" class="ml">
+					<h2 class="text-center">col-lg-*</h2>
+					<p>Se utiliza para mostrar en dispositivos con una pantalla de resolución mayor o igual a 1200px.</p>
 				</div>
-				<div class="col-lg-3 col-md-3 col-xs-12"></div>
-				<div class="col-lg-3 col-md-3 col-xs-12"></div>
-				<div class="col-lg-3 col-md-3 col-xs-12"></div>
+				<div class="col-lg-3 col-md-3 col-xs-12 mt"><!-- COL-MD-->
+					<img src="img/2.png" class="ml">
+					<h2 class="text-center">col-md-*</h2>
+					<p>Se utiliza para mostrar en dispositivos con una pantalla de resolución mayor o igual a 992px.</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-xs-12 mt"><!-- COL-SM-->
+					<img src="img/3.png" class="ml">
+					<h2 class="text-center">col-sm-*</h2>
+					<p>Se utiliza para mostrar en dispositivos con una pantalla de resolución mayor o igual a 768px.</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-xs-12 mt"><!-- COL-XS-->
+					<img src="img/4.png" class="ml">
+					<h2 class="text-center">col-xs-*</h2>
+					<p>Se utiliza para mostrar en dispositivos con una pantalla de resolución menor a 768px.</p>
+				</div>
+			</div>
+			<div class="row mt">
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="ml1">
+						<img src="img/a.png" class="img mb"><!-- glyphicons-->
+						<h2 class="text-center">Glyphicon</h2>
+						<p>Bootstrap cuenta con 260 glyphicons de <a href="http://glyphicons.com/">Glyphicons</a>, los cuales son utilizados en textos, botones, toolbars, navegadores, etc.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="ml1">
+						<img src="img/b.png" class="img mb"><!-- navs-->
+						<h2 class="text-center">naV Bar</h2>
+						<p>El naV Bar header se colocan en la parte superior de la página; con Bootstrap el navegador puede extenderse o caer, dependiendo del tamaño de la pantalla.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="ml1">
+						<img src="img/c.png" class="img mb"><!-- formulario-->
+						<h2 class="text-center">Formulario</h2>
+						<p>Bootstrap 3 aplica por defecto algunos estilos a todos los componentes de los formularios y clases que establecen la anchura y para optimizar el espaciado.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer></footer>
 </body>
 </html>
