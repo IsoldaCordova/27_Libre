@@ -12,6 +12,13 @@
 	margin-left: 4%;
 	width: 92%;
 }
+.uno{
+	margin-top: 9%;
+}
+
+.pr{
+	padding: 0% 2% 0% 2%;
+}
 .ml1{
 	margin-left: 3%;
 }
@@ -40,13 +47,16 @@
 	margin-bottom: 15%;
 }
 .pt{
-	padding-top: 15%;
+	padding-top: 10%;
 }
 .pt2{
 	padding-top: 20%;
 }
 .pb{
 	padding-bottom: 25%;
+}
+.pb2{
+	padding-bottom: 10%;
 }
 /*boton*/
 button{
@@ -78,7 +88,7 @@ nav{
 }
 .gray{
 	background-color: #E6E6E6;
-	height: 47em;
+	height: 100%;
 }
 .rot:hover{
 -webkit-transform: rotateZ(360deg);
@@ -92,3 +102,5 @@ transform: scale(1.1);
 .thumbnail{
 	background-color:#240024 !important;
 }
+
+ 
