@@ -5,6 +5,9 @@
 .pd{
 	padding: 4.5%;
 }
+.pd2{
+	padding: 2%;
+}
 .ml{
 	margin-left: 4%;
 	width: 92%;
@@ -18,8 +21,14 @@
 .mt2{
 	margin-top: 15%;
 }
+.mt3{
+	margin-top: 3%;
+}
 .mb{
 	margin-bottom: 5%;
+}
+.mb2{
+	margin-bottom: 10%;
 }
 /*boton*/
 button{
@@ -27,15 +36,33 @@ button{
 	color: #ffffff !important;
 	border: none;
 }
+button:hover{
+	background-color: #E6E6E6;
+}
 /*text*/
 .head{
-	color: #240024 !important;
+	color: #ffffff !important;
 }
 /*especifico*/
 nav{
 	background-color: #240024 !important;
+	width: 100%;
 }
 .img{
 	height: 19em;
-	width: 100%;
+	width: 90%;
+}
+/*background*/
+.purple{
+	background-color: #240024;
+}
+.gray{
+	background-color: #E6E6E6;
+	height: 28em;
+}
+.gris{
+	height: 1em;
+	width: 30%;
+	border-radius: 20%;
+	background-color: #E6E6E6;
 }
