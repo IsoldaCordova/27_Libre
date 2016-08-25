@@ -1,0 +1,16 @@
+.logo{
+	width: 20%;
+}
+/*margin and padding*/
+.pd{
+	padding: 4.5%;
+}
+.ml{
+	margin-left: 4%;
+	width: 92%;
+}
+/*boton*/
+button{
+	background-color:  #240024;
+	color: #ffffff !important;
+}
